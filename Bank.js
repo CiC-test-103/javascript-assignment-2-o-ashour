@@ -37,7 +37,7 @@ class Account {
 
     withdraw(amount) {
         this.balance -= amount;
-        this.transactionHistory.push({ transactionType: 'Withdraw', amount });
+        this.transactionHistory.push({ transactionType: 'Withdrawal', amount });
     }
 
     // Example: transfer(amount, recipientAccount)
